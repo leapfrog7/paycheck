@@ -1,0 +1,41 @@
+{
+  "id": "./",
+  "name": "PayCheck — Government Pay Calculator",
+  "short_name": "PayCheck",
+  "description": "Traceable Central Government pay, arrears and benefits calculations saved privately on your device.",
+  "start_url": "./?source=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f9fc",
+  "theme_color": "#1d4ed8",
+  "categories": ["finance", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "./app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New pay calculation",
+      "short_name": "New calculation",
+      "url": "./?new=1&source=shortcut",
+      "icons": [{ "src": "./app-icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Saved cases",
+      "short_name": "Saved cases",
+      "url": "./saved-cases?source=shortcut",
+      "icons": [{ "src": "./app-icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
