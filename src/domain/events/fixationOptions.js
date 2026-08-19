@@ -1,0 +1,17 @@
+export const FIXATION_OPTIONS = {
+  FROM_EVENT_DATE: 'FROM_EVENT_DATE',
+  FROM_LOWER_POST_DNI: 'FROM_LOWER_POST_DNI',
+  NOT_APPLICABLE: 'NOT_APPLICABLE',
+  UNRESOLVED: 'UNRESOLVED',
+}
+
+export const FIXATION_OPTION_LABELS = {
+  [FIXATION_OPTIONS.FROM_EVENT_DATE]: 'From event date',
+  [FIXATION_OPTIONS.FROM_LOWER_POST_DNI]: 'From lower-post DNI',
+  [FIXATION_OPTIONS.NOT_APPLICABLE]: 'Not applicable',
+  [FIXATION_OPTIONS.UNRESOLVED]: 'Unresolved',
+}
+
+export const FIXATION_OPTION_OPTIONS = Object.entries(FIXATION_OPTION_LABELS).map(
+  ([value, label]) => ({ value, label }),
+)

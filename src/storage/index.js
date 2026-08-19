@@ -1,6 +1,7 @@
 export const storageKeys = {
   payroll: 'paycheck:payroll',
   settings: 'paycheck:settings',
+  calculationView: 'paycheck:calculation-view',
 }
 
 export function readStorage(key, fallback = null) {
